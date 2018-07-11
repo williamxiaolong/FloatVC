@@ -236,6 +236,7 @@ extension FloatManager: XLFloatBallDelegate {
             self.tempFloatVC = nil
             self.floatVC = nil
             self.floatBall.removeFromSuperview()
+            self.cancelFloatAreaView.highlight = false
         }
         
         UIView.animate(withDuration: 0.5, animations: {
