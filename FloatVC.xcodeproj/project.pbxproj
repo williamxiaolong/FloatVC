@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F090895020F310C700F158B5 /* XLTransitionPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = F090894F20F310C700F158B5 /* XLTransitionPush.swift */; };
+		F090895220F33B2F00F158B5 /* XLTransitionPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F090895120F33B2F00F158B5 /* XLTransitionPop.swift */; };
 		F09E374E20EDF4020000DE22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E374D20EDF4020000DE22 /* AppDelegate.swift */; };
-		F09E375020EDF4020000DE22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E374F20EDF4020000DE22 /* ViewController.swift */; };
-		F09E375320EDF4020000DE22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09E375120EDF4020000DE22 /* Main.storyboard */; };
 		F09E375520EDF4040000DE22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09E375420EDF4040000DE22 /* Assets.xcassets */; };
 		F09E375820EDF4040000DE22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09E375620EDF4040000DE22 /* LaunchScreen.storyboard */; };
 		F09E376320EDF4040000DE22 /* FloatVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E376220EDF4040000DE22 /* FloatVCTests.swift */; };
 		F09E376E20EDF4040000DE22 /* FloatVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E376D20EDF4040000DE22 /* FloatVCUITests.swift */; };
+		F09E377D20EDFBF50000DE22 /* XLFloatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E377C20EDFBF50000DE22 /* XLFloatManager.swift */; };
+		F09E377F20EDFDB90000DE22 /* XLHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E377E20EDFDB90000DE22 /* XLHomeViewController.swift */; };
+		F09E378120EE02400000DE22 /* XLFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E378020EE02400000DE22 /* XLFirstViewController.swift */; };
+		F09E378320EE04470000DE22 /* XLSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E378220EE04470000DE22 /* XLSecondViewController.swift */; };
+		F09E378520EE0CEC0000DE22 /* XLVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E378420EE0CEC0000DE22 /* XLVc.swift */; };
+		F09E378720EE1BCC0000DE22 /* XLFloatAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E378620EE1BCC0000DE22 /* XLFloatAreaView.swift */; };
+		F09E378920EF49CF0000DE22 /* XLFloatBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E378820EF49CF0000DE22 /* XLFloatBall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F090894F20F310C700F158B5 /* XLTransitionPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLTransitionPush.swift; sourceTree = "<group>"; };
+		F090895120F33B2F00F158B5 /* XLTransitionPop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLTransitionPop.swift; sourceTree = "<group>"; };
 		F09E374A20EDF4020000DE22 /* FloatVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09E374D20EDF4020000DE22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F09E374F20EDF4020000DE22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F09E375220EDF4020000DE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F09E375420EDF4040000DE22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F09E375720EDF4040000DE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F09E375920EDF4040000DE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		F09E376920EDF4040000DE22 /* FloatVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09E376D20EDF4040000DE22 /* FloatVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatVCUITests.swift; sourceTree = "<group>"; };
 		F09E376F20EDF4040000DE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09E377C20EDFBF50000DE22 /* XLFloatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLFloatManager.swift; sourceTree = "<group>"; };
+		F09E377E20EDFDB90000DE22 /* XLHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLHomeViewController.swift; sourceTree = "<group>"; };
+		F09E378020EE02400000DE22 /* XLFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLFirstViewController.swift; sourceTree = "<group>"; };
+		F09E378220EE04470000DE22 /* XLSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLSecondViewController.swift; sourceTree = "<group>"; };
+		F09E378420EE0CEC0000DE22 /* XLVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLVc.swift; sourceTree = "<group>"; };
+		F09E378620EE1BCC0000DE22 /* XLFloatAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLFloatAreaView.swift; sourceTree = "<group>"; };
+		F09E378820EF49CF0000DE22 /* XLFloatBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLFloatBall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +111,11 @@
 		F09E374C20EDF4020000DE22 /* FloatVC */ = {
 			isa = PBXGroup;
 			children = (
+				F09E377B20EDFB670000DE22 /* XLFloat */,
 				F09E374D20EDF4020000DE22 /* AppDelegate.swift */,
-				F09E374F20EDF4020000DE22 /* ViewController.swift */,
-				F09E375120EDF4020000DE22 /* Main.storyboard */,
+				F09E377E20EDFDB90000DE22 /* XLHomeViewController.swift */,
+				F09E378020EE02400000DE22 /* XLFirstViewController.swift */,
+				F09E378220EE04470000DE22 /* XLSecondViewController.swift */,
 				F09E375420EDF4040000DE22 /* Assets.xcassets */,
 				F09E375620EDF4040000DE22 /* LaunchScreen.storyboard */,
 				F09E375920EDF4040000DE22 /* Info.plist */,
@@ -123,6 +139,19 @@
 				F09E376F20EDF4040000DE22 /* Info.plist */,
 			);
 			path = FloatVCUITests;
+			sourceTree = "<group>";
+		};
+		F09E377B20EDFB670000DE22 /* XLFloat */ = {
+			isa = PBXGroup;
+			children = (
+				F09E377C20EDFBF50000DE22 /* XLFloatManager.swift */,
+				F09E378420EE0CEC0000DE22 /* XLVc.swift */,
+				F09E378620EE1BCC0000DE22 /* XLFloatAreaView.swift */,
+				F09E378820EF49CF0000DE22 /* XLFloatBall.swift */,
+				F090894F20F310C700F158B5 /* XLTransitionPush.swift */,
+				F090895120F33B2F00F158B5 /* XLTransitionPop.swift */,
+			);
+			path = XLFloat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +260,6 @@
 			files = (
 				F09E375820EDF4040000DE22 /* LaunchScreen.storyboard in Resources */,
 				F09E375520EDF4040000DE22 /* Assets.xcassets in Resources */,
-				F09E375320EDF4020000DE22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F09E375020EDF4020000DE22 /* ViewController.swift in Sources */,
+				F09E378720EE1BCC0000DE22 /* XLFloatAreaView.swift in Sources */,
+				F090895020F310C700F158B5 /* XLTransitionPush.swift in Sources */,
+				F09E378920EF49CF0000DE22 /* XLFloatBall.swift in Sources */,
+				F09E377D20EDFBF50000DE22 /* XLFloatManager.swift in Sources */,
+				F09E378320EE04470000DE22 /* XLSecondViewController.swift in Sources */,
+				F09E378520EE0CEC0000DE22 /* XLVc.swift in Sources */,
+				F090895220F33B2F00F158B5 /* XLTransitionPop.swift in Sources */,
+				F09E378120EE02400000DE22 /* XLFirstViewController.swift in Sources */,
+				F09E377F20EDFDB90000DE22 /* XLHomeViewController.swift in Sources */,
 				F09E374E20EDF4020000DE22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F09E375120EDF4020000DE22 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F09E375220EDF4020000DE22 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F09E375620EDF4040000DE22 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4F45HLVDE3;
 				INFOPLIST_FILE = FloatVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4F45HLVDE3;
 				INFOPLIST_FILE = FloatVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

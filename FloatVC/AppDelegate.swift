@@ -8,14 +8,26 @@
 
 import UIKit
 
+let UISCREEN_WIDTH = UIScreen.main.bounds.width
+let UISCREEN_HEIGHT = UIScreen.main.bounds.height
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        let homeVC = XLHomeViewController()
+        let navController = UINavigationController.init(rootViewController: homeVC)
+        navController.navigationBar.tintColor = UIColor.white
+        navController.navigationBar.barStyle = UIBarStyle.black
+        self.window?.rootViewController = navController
+        self.window?.makeKeyAndVisible()
+        
+        FloatManager.addFloatVcClass(vcClass: ["XLSecondViewController"])
+        
         return true
     }
 
